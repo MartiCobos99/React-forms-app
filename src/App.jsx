@@ -50,10 +50,10 @@ const Persons = ({ persons }) => {
 
 const App = () => {
   const [persons, setPersons] = useState([
-    { name: "Arto Hellas", number: "672253023", id: 1 },
-    { name: "Arnau Gallego", number: "671512305", id: 2 },
-    { name: "Marc Fleck", number: "6758493", id: 3 },
-    { name: "Josep Rubió", number: "678978345", id: 4 },
+    { name: "Martí Cobos", number: "651885122", id: 1 },
+    { name: "Manel De La Hoz", number: "659987563", id: 2 },
+    { name: "Alvaro Herranz", number: "652369852", id: 3 },
+    { name: "Lye Harbor", number: "354123987", id: 4 },
   ]);
 
   const [newName, setNewName] = useState("");
